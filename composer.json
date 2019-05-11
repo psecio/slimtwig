@@ -1,0 +1,24 @@
+{
+    "name":"psecio/slimtwig",
+    "type":"library",
+    "description":"A branch of Slim that comes with Twig already set up",
+    "keywords":["twig", "slim", "framework"],
+    "homepage":"https://github.com/psecio/slimtwig.git",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Chris Cornutt",
+            "email":"ccornutt@phpdeveloper.org",
+            "homepage":"https://websec.io"
+        }
+    ],
+    "require":{
+        "slim/slim": "^3.12",
+        "slim/twig-view": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlimTwig\\": "vendor/psecio/slimtwig/src/"
+        }
+    }
+}

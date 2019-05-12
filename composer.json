@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SlimTwig\\": "vendor/psecio/slimtwig/src/"
+            "SlimTwig\\": "src/"
         }
     }
 }
